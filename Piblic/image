@@ -1,0 +1,31 @@
+ <div class="nav-bar">
+      <div class="nav-bar2">
+        <div class="nav-bar3">
+        <li><i class="fa-solid fa-bars"></i></li>
+        </div>
+        <div class="nav-bar4">
+          <h3>CATAGORIES</h3>
+        </div>
+        <div class="nav-bar5">
+          <li>
+            <a href="#">CLOTHING</a>
+          </li>
+          <li>
+            <a href="#">ELECTRONIC HOT</a>
+          </li>
+          <li>
+            <a href="#">HEALTH&BEAUTY</a>
+          </li>
+          <li>
+            <a href="#">WATERCHES</a>
+          </li>
+          <li>
+            <a href="#">JEWELLRY</a>
+          </li>
+          <li>
+            <a href="#">SHOES</a>
+          </li>
+        </div>
+      </div>
+    </div>
+  <

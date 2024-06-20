@@ -1,81 +1,194 @@
-body{
-    margin:0;
-    padding: o;
-    box-sizing: border-box;
+body {
+  margin: 0;
+  padding: o;
+  box-sizing: border-box;
 }
-.box1{
-    border: 1px solid black;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #222222;
-    color: #fff;
-    
+.nav-bar {
+  border: 1px solid black;
+  width: 100;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #222222;
+  color: #fff;
 }
-.box2{
-    border: 1px solid blue;
+.image-bar {
+  border: 1px solid blue;
+  border: none;
 }
-.box3{
-    border: 1px solid red;
+.list-bar {
+  border: 1px solid red;
+  border: none;
 }
-.box4{
-    border: 1px solid black ;
-    display: flex;
-    margin: auto;
+.box4 {
+  border: 1px solid black;
+  border: none;
+  display: flex;
+  margin: auto;
 }
-.box5{
-    border: 1px solid green;
-    display: flex;
-    justify-content: center;
-    text-align: center;
+.shopping-menu {
+  border: 1px solid green;
+  border: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
-input{
-    max-width: 0,auto;
-    width: 50%;
-    margin-top: 10px;
-    height: 35px;
-    border-radius: 15px;
-    
+input {
+  max-width: 0, auto;
+  width: 50%;
+  margin-top: 10px;
+  height: 35px;
+  border-radius: 15px;
 }
-.tag{
-    border-radius: 6%;
-    width: 50px;
-    margin-top: 10px;
-    height: 20px;
-    margin-right: 44px;
-    padding: 10px;
-    text-align: center;
-    color:#fff;
-    background-color: #F10E34;
-
+.tag-place {
+  border-radius: 6%;
+  width: 50px;
+  margin-top: 10px;
+  height: 20px;
+  margin-right: 44px;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+  background-color: #f10e34;
 }
-.shopping{
-    display: flex;
+.shopping {
+  display: flex;
 }
-.card{
-    margin-top: 10px;
-    border-radius:50%;
-    margin-bottom: 45px;
-    margin-right:5px;
-    padding:10px ;
-    height: 20px;
-    text-align: center;
-    background-color: #F10E34;
-    color: #fff;
+.card {
+  margin-top: 10px;
+  border-radius: 50%;
+  margin-bottom: 45px;
+  margin-right: 5px;
+  padding: 10px;
+  height: 20px;
+  text-align: center;
+  background-color: #f10e34;
+  color: #fff;
 }
-.number{
-    line-height: 0%;
-    font-size: 16px;
-}
-ul{
-    display: flex;
-    gap: 35px;
-    font-size: 18px;
-    list-style: none;
-    margin: auto;
-}
-a{
-    text-decoration: none;
-    color: #fff;
+.number {
+  line-height: 0%;
+  font-size: 16px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+.heading {
+  position: relative;
+}
+.heading::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  right: -9px;
+  top: 3px;
+  height: 20px;
+}
+
+/*Down css is second nav*/
+.top-nav {
+  border: 1px solid blue;
+  border: none;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.head-nav {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #f10e34;
+}
+.ico-bar {
+  border: 1px solid red;
+  margin: auto;
+  width: 30px;
+  text-align: center;
+  color: #fff;
+}
+.nav-bar4 {
+  border: 1px solid rgb(32, 9, 161);
+  color: #fff;
+}
+.nav-bar5 {
+  border: 1px solid blueviolet;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  padding: 1px;
+  font-size: 15px;
+}
+.ullist {
+  justify-content: right;
+  align-items: center;
+  display: flex;
+  gap: 35px;
+  font-size: 18px;
+  list-style: none;
+  margin: auto;
+}
+a {
+  align-items: end;
+  justify-content: end;
+}
+.linebar {
+  position: relative;
+}
+.linebar::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  background-color: #fff;
+  right: -9px;
+  top: 4px;
+  height: 40px;
+}
+
+/* donw css side body*/
+.list-bar {
+  width: 50%;
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 5px 4px 6px rgb(201, 174, 139);
+}
+ul {
+  list-style: none;
+  line-height: 3;
+}
+a {
+  text-decoration: none;
+}
+.borde {
+  background-color: #f3f3f3;
+  border: 1px solid black;
+  width: 100%;
+}
+ul {
+  position: relative;
+}
+ul::before {
+  content: "";
+  position: absolute;
+  top: 35px;
+  left: 30px;
+  width: 60%;
+  height: 2px;
+  background-color: #ff4c60;
+}
+image {
+  height: 2px;
+  width: 5px;
+}
+.goldstar {
+  border: 1px solid black;
+  width: 30%;
+  background-color: #ffffff;
+  justify-content: center;
+}
