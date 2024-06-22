@@ -1,0 +1,35 @@
+<div class="item-bar">
+  <ul class="ullist">
+    <li class="heading">
+      <a href="#" class="href">My Account</a>
+    </li>
+    <li class="heading">
+      <a href="#" class="href">Wishlist</a>
+    </li>
+    <li class="heading">
+      <a href="#" class="href">My Cart</a>
+    </li>
+    <li class="heading">
+      <a href="#" class="href">Checkout</a>
+    </li>
+    <li class="heading">
+      <a href="#" class="href">Login</a>
+    </li>
+  </ul>
+
+  <input
+    class="here"
+    type="search box"
+    id="search hrer"
+    name="Search here"
+    placeholder="search here"
+  />
+  <i class="tag-place"><i class="fa-solid fa-magnifying-glass"></i></i>
+  <div class="shopping">
+    <i class="card"><i class="fa-solid fa-cart-shopping"></i></i>
+    <div class="number-bar">
+      <h4>Total</h4>
+      <p>$600</p>
+    </div>
+  </div>
+</div>

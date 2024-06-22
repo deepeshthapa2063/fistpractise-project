@@ -4,8 +4,8 @@
   box-sizing: border-box;
 }
 .nav-bar {
-  border: 1px solid black;
-  border-style: none;
+  border: 1px solid rgb(132, 47, 189);
+  
   width: 100;
   display: flex;
   justify-content: space-around;
@@ -15,31 +15,32 @@
 }
 .image-bar {
   border: 1px solid blue;
-  border: none;
+  
 }
 .item-bar {
   border: 1px solid red;
-  border: none;
+  width: 100%;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  align-items: end;
+  margin-top: 4;
+  margin-bottom: 5%;
+  justify-content:space-evenly;
+  align-items:flex-end;
 }
 .box4 {
-  border: 1px solid black;
-  border: none;
+  border: 1px solid rgb(11, 187, 20);
+  
   display: flex;
   margin: auto;
 }
 .shopping-menu {
-  border: 1px solid green;
-  border: none;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-align: center;
+  margin-right: 0%;
 }
 .here {
-  max-width: 100%;
-  width: 90%;
+  width: 250px;
   margin-top: 60px;
   height: 35px;
   border-radius: 20px;
@@ -76,7 +77,15 @@
 
 a {
   text-decoration: none;
-  color: black;
+  color:#222222;
+  
+}
+.href{
+  color: #f3f3f3;
+  margin-top: 0;
+  margin-left:0px;
+
+
 }
 .heading {
   position: relative;
@@ -87,7 +96,7 @@ a {
   width: 1px;
   background-color: #fff;
   right: -6px;
-  top: 15px;
+  top: 7px;
   height: 20px;
 }
 
@@ -133,17 +142,21 @@ h3 {
   display: flex;
   align-items: center;
   margin: auto;
+  margin-bottom: auto;
   padding: 1px;
   font-size: 15px;
 }
 .ullist {
+  border: 1px solid wheat;
   justify-content: right;
   align-items: center;
   display: flex;
-  gap: 35px;
+  gap: 20px;
   font-size: 18px;
   list-style: none;
   margin: auto;
+  margin-bottom:9%;
+  margin-left:0%;
 }
 a {
   display: flex;
@@ -184,7 +197,7 @@ a {
   top: 45px;
   left: 20px;
   width: 300px;
-  height: 3px;
+  height: 2px;
   background-color: #817476;
 
 }
@@ -280,9 +293,24 @@ h2{
    width: 25%;
    margin: 9px;
 }
+.ulleist{
+  display: flex;
+  gap: none;
+  font-size: 18px;
+  list-style: none
+  
+}
 
 /*side body part*/
 .background{
-  border: 1px solid black;
-  background-image: url(https://nilaw2017.github.io/Portfolio/PROJECTS/Ecommerce/img/awesomegirl.png); 
+ background-image: url(https://nilaw2017.github.io/Portfolio/PROJECTS/Ecommerce/img/awesomegirl.png);
+ margin: 0;
+ box-sizing: border-box;
+ display: block;
+ margin-block-start: 1em;
+ margin-block-end: 1em;
+ margin-inline-start: 0px;
+ margin-inline-end: 0px;
+ unicode-bidi: isolate; 
+ align-items: center;
 }
