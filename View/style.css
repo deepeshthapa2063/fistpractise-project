@@ -4,8 +4,6 @@
   box-sizing: border-box;
 }
 .nav-bar {
-  border: 1px solid rgb(132, 47, 189);
-  
   width: 100;
   display: flex;
   justify-content: space-around;
@@ -15,40 +13,36 @@
 }
 .image-bar {
   border: 1px solid blue;
-  
+  border: none;
 }
 .item-bar {
-  border: 1px solid red;
-  width: 100%;
-  display: flex;
+  justify-content: space-around;
+  width: 85%;
   align-items: end;
-  margin-top: 4;
-  margin-bottom: 5%;
-  justify-content:space-evenly;
-  align-items:flex-end;
+  justify-content: space-evenly;
 }
 .box4 {
   border: 1px solid rgb(11, 187, 20);
-  
+  border-style: none;
   display: flex;
   margin: auto;
 }
 .shopping-menu {
+  border: 1px solid red;
+  border-style: none;
   display: flex;
-  justify-content: left;
+  justify-content: flex-end;
   text-align: center;
-  margin-right: 0%;
 }
 .here {
   width: 250px;
-  margin-top: 60px;
+  margin-top: 0%;
   height: 35px;
   border-radius: 20px;
 }
 .tag-place {
   border-radius: 6%;
-  margin-top: 60px;
-  margin-bottom: 10px;
+  margin-top: 0%px;
   height: 30px;
   margin-right: 10px;
   padding: 10px;
@@ -60,7 +54,7 @@
   display: flex;
 }
 .card {
-  margin-top: 60px;
+  margin-top: 0%;
   border-radius: 50%;
   margin-bottom: 55px;
   margin-left: 30px;
@@ -71,21 +65,18 @@
   color: #fff;
 }
 .number-bar {
-  margin-top: 60px;
+  margin-top: 0%;
   font-size: 16px;
 }
 
 a {
   text-decoration: none;
-  color:#222222;
-  
+  color: #222222;
 }
-.href{
+.href {
   color: #f3f3f3;
   margin-top: 0;
-  margin-left:0px;
-
-
+  margin-left: 0px;
 }
 .heading {
   position: relative;
@@ -103,16 +94,11 @@ a {
 /*Down css is second nav*/
 .top-nav {
   border: 1px solid blue;
-  border: none;
-  display: flex;
   list-style: none;
-  justify-content: space-around;
-  align-items: center;
-  text-align: center;
+
 }
 .head-nav {
   border: 1px solid black;
-  border-style: none;
   display: flex;
   justify-content: space-around;
   width: 100%;
@@ -121,9 +107,10 @@ a {
 .ico-bar {
   border: 1px solid red;
   border-style: none;
-  margin: 40px;
+  margin: 10px;
   width: 30px;
-  align-items: end;
+  margin: 3%;
+  margin-right: 0%;
   text-align: center;
   color: #fff;
 }
@@ -142,12 +129,12 @@ h3 {
   display: flex;
   align-items: center;
   margin: auto;
-  margin-bottom: auto;
   padding: 1px;
-  font-size: 15px;
+  font-size: 19px;
 }
 .ullist {
   border: 1px solid wheat;
+  border-style: none;
   justify-content: right;
   align-items: center;
   display: flex;
@@ -155,15 +142,13 @@ h3 {
   font-size: 18px;
   list-style: none;
   margin: auto;
-  margin-bottom:9%;
-  margin-left:0%;
 }
 a {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
-  margin-left: 0px;
-  text-align: justify;
+  text-align:end;
+  color:rgb(39, 37, 190);
 }
 .linebar {
   position: relative;
@@ -173,24 +158,26 @@ a {
   position: absolute;
   width: 1px;
   background-color: #fff;
-  right: -9px;
-  top: 10px;
-  height: 25px;
+  right: -2px;
+  top: 20px;
+  height: 20px;
 }
 
 /* donw css side body*/
+.div{
+  border: 1px solid blue;
+  justify-content: space-around;
+}
 .list-bar {
-  border-style: none;
-  width: 99.5%;
   display: grid;
   margin-top: 20px;
-  background-color: white;
+  background-col
   box-shadow: 5px 4px 6px black;
 }
-.list-bar{
+.list-bar {
   position: relative;
 }
-.list-bar::after{
+.list-bar::after {
   content: "";
   content: "";
   position: absolute;
@@ -199,7 +186,6 @@ a {
   width: 300px;
   height: 2px;
   background-color: #817476;
-
 }
 ul {
   list-style: none;
@@ -212,26 +198,24 @@ a {
   margin: 15px;
 }
 .borde {
-  background-color: #f3f3f3;
   border: 1px solid black;
   border-style: none;
-  width: 25%;
+  border-style: none;
+  font-size: 17px;
 }
 
 .goldstar {
   border: 1px solid black;
   border-style: none;
-  width: 25%;
-  height: 350px;
   background-color: #ffffff;
   justify-content: space-around;
-  box-shadow: 5px 5px 6px;
+  box-shadow: 6px 0px 6px black;
 }
 h3 {
   text-align: center;
   text-decoration-line: underline;
-  width: 90%;
-  height: 40px;
+
+  height: 50px;
   font-size: 20px;
 }
 p {
@@ -244,73 +228,67 @@ p {
 }
 .star {
   display: flex;
-  justify-content: space-around;
   text-align: center;
   color: blue;
 }
-.stare{
+.stare {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 /*sing page*/
-.sing{
+.sing {
   border: 1px solid black;
-  width: 25%;
-  margin: 9px;
-  height: 300px;
-  box-shadow: 5px 5px 6px bisque;
+  margin: 5%;
+  height: 250px;
+  box-shadow: 5px 5px 6px black;
 }
-input{
-  width: 60%;
-  margin: 20px;
+input {
+  width: 70%;
+  margin: 2%;
+  margin-left: 16%;
+  margin-top: 10%;
   height: 40px;
   display: flex;
 }
-button{
+button {
   display: flex;
   align-items: center;
   text-align: center;
   margin: 10px;
   height: 30px;
   width: 100px;
-  background-color: #F22F49;
+  background-color: #f22f49;
   color: #fff;
   border-radius: 10px;
   border-style: none;
 }
-p{
+p {
   font-size: 20px;
   margin: 10px;
 }
-h2{
+h2 {
   text-align: center;
+  margin-top: 10%;
   text-decoration: underline;
 }
-.photo{
-   border: 1px solid black;
-   border-style: none;
-   width: 25%;
-   margin: 9px;
+.photo {
+  border: 1px solid black;
+  border-style: none;
+  width: 25%;
+  margin: 9px;
 }
-.ulleist{
+.ulleist {
   display: flex;
   gap: none;
   font-size: 18px;
-  list-style: none
-  
+  list-style: none;
 }
 
 /*side body part*/
-.background{
- background-image: url(https://nilaw2017.github.io/Portfolio/PROJECTS/Ecommerce/img/awesomegirl.png);
- margin: 0;
- box-sizing: border-box;
- display: block;
- margin-block-start: 1em;
- margin-block-end: 1em;
- margin-inline-start: 0px;
- margin-inline-end: 0px;
- unicode-bidi: isolate; 
- align-items: center;
+.background {
+  border: 1px solid black;
+  height: 350px;
+  background-image: url(https://nilaw2017.github.io/Portfolio/PROJECTS/Ecommerce/img/awesomegirl.png);
+ width: 90%;
 }
