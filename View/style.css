@@ -171,7 +171,6 @@ a {
 .list-bar {
   display: grid;
   margin-top: 20px;
-  background-col
   box-shadow: 5px 4px 6px black;
 }
 .list-bar {
@@ -288,7 +287,46 @@ h2 {
 /*side body part*/
 .background {
   border: 1px solid black;
-  height: 350px;
-  background-image: url(https://nilaw2017.github.io/Portfolio/PROJECTS/Ecommerce/img/awesomegirl.png);
- width: 90%;
+  height: 620px;
+}
+.girl{
+  border:1px solid black;
+  border-style: none;
+  width: 50%;
+  display: grid;
+  position: absolute;
+  top: 45%;
+
+} 
+h1{
+  margin: 12%;
+  font-size: 30px;
+  font-weight: 700;
+  display: block;
+  color:#303A7A;
+}
+p{
+text-align: left;
+}
+.text-big{
+  font-size: 50px;
+  font-family: lato,sans-serif;
+  display: block;
+color:#FFFFFF ;
+}
+.black{
+  color: #222222;
+  display:block;
+}
+#shop-now{
+  color: #222222;
+  border: 1px solid black;
+  border-radius: 8%;
+  background-color:#FFC86C;
+}
+.fotter-side{
+  border: 1px solid red;
+  display: flex; 
+  justify-content: space-around;
+
 }

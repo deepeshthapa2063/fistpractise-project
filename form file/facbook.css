@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+}
+.mane-box{
+    border:1px solid black;
+}
+.side-part{
+    border:1px solid #0000ff;
+    text-align: end;
+}
+.phone-number{
+    height: 21px;
+    width: 330px;
+    padding:14px 16px 14px 16px;
+    border: 1px solid #dddfe2;
+    display: inline-block;
+    vertical-align: middle;
+    align-items: center;
+}
+.password{
+    height:21px;
+    width:330px;
+    align-items: center;
+    border:1px solid #dddfe2;
+    padding: 14px 16px 14px 16px;
+    display: block;
+    vertical-align: middle;
+}
+.logi{
+    height: 132.205px;
+    width: 395-99px;
+    display: grid;
+    word-wrap: break-word;
+    justify-content: center;
+    gap: 5%;
+    margin: 1%;   
+}
+button{
+    height: 47.9861px;
+    padding: 0 16px 0 16px;
+    position: relative;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: inline-block;
+    background-color: #0966ff;
+    text-align: center;
+    font-weight: 700;
+    line-height: 48px;
+    vertical-align: middle;
+    word-spacing: 0px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.pp{
+    text-align: center;
+    display: inline;
+    margin: 2%;
+  }
+  .Create{
+    align-items: center;
+    text-align: center;
+    height: 47.9861px;
+    padding: 0 16px , 0 16px;
+    height: 47.9861px;
+    padding: 0 16px , 0 16px;
+    width: 160.503px;
+    
+  }
