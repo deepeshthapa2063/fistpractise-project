@@ -5,7 +5,8 @@
 .mane-box {
   border: 1px solid black;
   border-style: none;
-  margin: 30px;
+  width: 396pxpx;
+  margin: 40px 0 0;
   background-color: #f0f2f5;
   margin-left: auto;
   margin-right: auto;
@@ -17,10 +18,14 @@
   border-style: none;
   box-shadow: 6px 6px 8px black;
   margin-left: 40%;
-  margin-top: 1%;
-  margin-bottom:8%;
-  height: 300px;
+  border-radius: 9px;
+  margin: 20%;
+  margin-top: 5%;
+  margin-bottom:9%;
+  height: 350px;
   background-color: #FFFFFF;
+  box-sizing: border-box;
+  display: block;
 
 }
 .phone-number {
@@ -29,7 +34,6 @@
   padding: 14px 16px 14px 16px;
   border: 1px solid #dddfe2;
   display: inline-block;
-  vertical-align: middle;
   align-items: end;
 }
 .password {
@@ -39,7 +43,6 @@
   border: 1px solid #dddfe2;
   padding: 14px 16px 14px 16px;
   display: block;
-  vertical-align: middle;
 }
 .logi {
   display: grid;
@@ -72,16 +75,18 @@ button {
 }
 .Create {
   align-items: center;
-  background-color: rgb(16, 236, 16);
-  height: 40px;
+  background-color:#42B72A;
+  height: 45px;
   width: 55%;
   display: flex;
   justify-content: center;
   margin-left: 25%;
+  margin-top: 10%;
+  border-radius: 10px;
 }
 .new{
   font-size: 20px;
-  color: #f0f2f5;
+  color:#FFFFF2;
 }
 
 .last-part{
@@ -99,7 +104,10 @@ display: flex;
 }
 .side-menu{
   margin: 4%;
-  display: inline;
+  display: grid;
+  margin-top: 10%;
+  margin-bottom: 16%;
+  gap: 1%;
   align-items: center;
   text-align: center;
 }
@@ -114,9 +122,17 @@ h2{
 }
 p{
   font-size: 14px;
+  color:#9c9494;
+
 }
 .page{
   align-items: center;
   text-align: center;
-  margin-top: 10%;
+  margin-top: 19%;
+  color: black;
+}
+hr{
+  width: 80%;
+  text-align: center;
+  margin-left: 8%;
 }
