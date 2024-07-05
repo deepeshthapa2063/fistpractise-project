@@ -95,7 +95,6 @@ a {
 .top-nav {
   border: 1px solid blue;
   list-style: none;
-
 }
 .head-nav {
   border: 1px solid black;
@@ -147,8 +146,8 @@ a {
   display: flex;
   justify-content: center;
   margin-bottom: 5px;
-  text-align:end;
-  color:rgb(39, 37, 190);
+  text-align: end;
+  color: rgb(39, 37, 190);
 }
 .linebar {
   position: relative;
@@ -164,7 +163,7 @@ a {
 }
 
 /* donw css side body*/
-.div{
+.div {
   border: 1px solid blue;
   justify-content: space-around;
 }
@@ -289,44 +288,80 @@ h2 {
   border: 1px solid black;
   height: 620px;
 }
-.girl{
-  border:1px solid black;
+.girl {
+  border: 1px solid black;
   border-style: none;
   width: 50%;
   display: grid;
   position: absolute;
   top: 45%;
-
-} 
-h1{
+}
+h1 {
   margin: 12%;
   font-size: 30px;
   font-weight: 700;
   display: block;
-  color:#303A7A;
+  color: #303a7a;
 }
-p{
-text-align: left;
+p {
+  text-align: left;
 }
-.text-big{
+.text-big {
   font-size: 50px;
-  font-family: lato,sans-serif;
+  font-family: lato, sans-serif;
   display: block;
-color:#FFFFFF ;
+  color: #ffffff;
 }
-.black{
+.black {
   color: #222222;
-  display:block;
+  display: block;
 }
-#shop-now{
+#shop-now {
   color: #222222;
   border: 1px solid black;
   border-radius: 8%;
-  background-color:#FFC86C;
+  background-color: #ffc86c;
 }
-.fotter-side{
+.fotter-side {
   border: 1px solid red;
-  display: flex; 
-  justify-content: space-around;
+  display: flex;
+  margin: auto;
+  background-color: red;
+  width: 150%;
+  gap: 80px;
+  text-align: justify;
+  margin-bottom: 20%;
+}
 
+/*down body part*/
+
+.down-body {
+  border: 1px solid black;
+}
+.pic-bar {
+  display: flex;
+  height: 362.439px;
+  width: 900%;
+  padding: 30px 30px 30px 30px;
+  max-width: 100%;
+}
+.photo{
+  height: 119.438px;
+  width: 183.4px;
+  max-height: 100%;
+  max-width: 100%;
+  display: block;
+  overflow: clip;
+  box-sizing: border-box;
+}
+p {
+  display: grid;
+  margin-top: 15%;
+}
+.starir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-style: none;
 }
