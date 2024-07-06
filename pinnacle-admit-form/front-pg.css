@@ -4,20 +4,25 @@
 }
 body{
     border: 1px solid red;
-    height: 900px;
+    border-style: none;
+    height: 100px;
     background: gainsboro;
 }
 .fist-border {
   border: 1px solid black;
+  border-style: none;
   background-color:whitesmoke;
 }
 .fist-box {
   border: 1px solid blueviolet;
+  border-style: none;
+  height: 250px;
   display: flex;
 }
 h1 {
   font-size: 70px;
   margin-left: 10%;
+  margin-top: 6%;
   padding: 4px 3px 4px 3px;
   color: green;
   font-weight: bold;
@@ -25,6 +30,7 @@ h1 {
 }
 .logo {
   margin-left: 9%;
+  margin-top: 2%;
 }
 img {
   height: 200px;
@@ -45,6 +51,7 @@ p {
 }
 .side-box {
   border: 1px solid blue;
+  border-style: none;
   display: grid;
 }
 .large-number {
@@ -119,12 +126,119 @@ p {
 /* upper css code is header information*/
 .ADIMISSION{
     border: 1px solid black;
-    margin-top: 1%;
+    border-style: none;
+    margin-bottom: 9%;
     text-align: center;
     background-color: green;
 }
 .font{
     font-size: 90px;
+    margin-top: 1%;
     color: antiquewhite;
     font-weight: bold;
+}
+.discoumt{
+  border: 1px solid black;
+  border-style: none;
+  background-color: antiquewhite;
+  border-style: none;
+  width: 550px;
+  display: grid;
+  margin-left: 30%;
+  margin-top: 7%;
+  margin:1%;
+  height: 100px;
+}
+.Join{
+  margin: 0%;
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+.Joine{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+.detail{
+  border: 1px solid black;
+  border-style: none;
+  background-color:rgb(4, 95, 4);
+  display: grid;
+  justify-content: flex-end;
+  width: 800px;
+  margin-left: 40%;
+}
+.Student{
+  border: 1px solid black;
+  border-style: none;
+  height: 85px;
+  display: grid;
+}
+.Name{
+  font-size: 25px;
+}
+.fis-border{
+  width: 60%;
+  height: 35px;
+  border-radius: 15px;
+}
+.rolls{
+  width: 20%;
+  height: 40px;
+  border-radius: 10px;
+}
+.roll{
+  font-size: 20px;
+  margin-left: 40%;
+  margin-top: 3px;
+}
+.menu{
+  border: 1px solid red;
+  border-style: none;
+  height: 50px;
+  margin-top: 2%;
+  font-size: 30px;
+}
+.last-menu{
+  border: 1px solid blue;
+  border-style: none;
+  margin-top: 2%;
+  display: grid;
+  height: 95px;
+}
+.contact{
+  height: 35px;
+  font-size: 16px;
+  border-radius: 9%;
+  margin-top: 2%;
+}
+.no{
+  margin-left:30%;
+}
+.email{
+  height: 35px;
+  margin-left: 3%;
+  font-size: 20px;
+}
+.emails{
+  height: 35px;
+  width: 55%;
+  border-radius: 11px;
+}
+
+.location{
+  border: 1px solid blueviolet;
+  border-style: none;
+  width: 700px;
+  height: 70px;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 40%;
+  margin-top: 1%;
+  font-size: 21px;
+  list-style: none;
+  color: antiquewhite;
+  font-weight: bold;
+  background-color: forestgreen;
 }
