@@ -1,0 +1,39 @@
+.fist-box {
+  border: 1px solid black;
+  height: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.menu {
+  border: 1px solid red;
+  display: grid;
+}
+li {
+  font-size: 20px;
+  text-align: justify;
+  list-style: none;
+}
+.body {
+  border: 1px solid blue;
+  display: flex;
+  margin: 5%;
+}
+.photo {
+  border: 1px solid red;
+  justify-content: space-around;
+  margin-left: 60%;
+  width: 8%;
+  height: 100px;
+  margin-bottom: ;
+}
+.body-part{
+  border: 1px solid red;
+}
+.seco-type{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.last-box{
+  display: grid;
+  margin: auto;
+}
