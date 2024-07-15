@@ -26,14 +26,49 @@ li {
   height: 100px;
   margin-bottom: ;
 }
-.body-part{
+.body-part {
   border: 1px solid red;
 }
-.seco-type{
+.seco-type {
   display: grid;
   grid-template-columns: auto auto;
 }
-.last-box{
-  display: grid;
-  margin: auto;
+.last-box {
+  
+  
+}
+/*below code is student inforation*/
+.information{
+  font-size: 30PX;
+  text-align: justify;
+  font-style: italic;
+  
+}
+.principal{
+  font-size: 25px;
+  font-style: italic;
+}
+
+/*above code is student inforation*/
+/*blow code is sing box*/
+.sing {
+  margin: 3%;
+  margin-left: 75%;
+  font-size: 20px;
+}
+.sing-box{
+   height: 45px;
+   width: 70%;
+}
+.student-sing{
+  margin: 4%;
+  margin-left: 8%;
+  font-size: 20px;
+}
+/*above code is sing box*/
+
+table{
+  height: 200px;
+  width: 50%;
+  margin-top: 3%;
 }
