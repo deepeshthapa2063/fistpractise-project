@@ -1,11 +1,13 @@
 .fist-box {
   border: 1px solid black;
+  border-style: none;
   height: 150px;
   display: flex;
   justify-content: space-around;
 }
 .menu {
   border: 1px solid red;
+  border-style: none;
   display: grid;
 }
 li {
@@ -15,36 +17,40 @@ li {
 }
 .body {
   border: 1px solid blue;
+  border-style: none;
   display: flex;
-  margin: 5%;
+  width: 100%;
 }
 .photo {
-  border: 1px solid red;
+  border: 1px solid rgb(95, 91, 91);
   justify-content: space-around;
   margin-left: 60%;
-  width: 8%;
-  height: 100px;
-  margin-bottom: ;
+  width: 13%;
+  height: 200px;
 }
 .body-part {
   border: 1px solid red;
+  border-style: none;
+  margin: 2%;
+  justify-content: space-around;
+  background-color: rgb(218, 214, 214);
+}
+.date{
+  font-size: 40px;
 }
 .seco-type {
   display: grid;
   grid-template-columns: auto auto;
 }
 .last-box {
-  
-  
 }
 /*below code is student inforation*/
-.information{
-  font-size: 30PX;
+.information {
+  font-size: 30px;
   text-align: justify;
   font-style: italic;
-  
 }
-.principal{
+.principal {
   font-size: 25px;
   font-style: italic;
 }
@@ -56,19 +62,29 @@ li {
   margin-left: 75%;
   font-size: 20px;
 }
-.sing-box{
-   height: 45px;
-   width: 70%;
+.sing-box {
+  height: 45px;
+  width: 70%;
 }
-.student-sing{
+.student-sing {
   margin: 4%;
   margin-left: 8%;
   font-size: 20px;
 }
 /*above code is sing box*/
 
-table{
+table {
   height: 200px;
   width: 50%;
   margin-top: 3%;
+}
+input {
+  height: 25px;
+  width: 40%;
+  margin: 1%;
+  font-size: 40px;
+}
+.checkbox {
+  margin-top: auto;
+  margin-bottom: auto;
 }
